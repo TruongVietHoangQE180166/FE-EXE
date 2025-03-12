@@ -1,0 +1,30 @@
+.admin-layout {
+  min-height: 100vh;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.admin-menu {
+  flex-grow: 1;
+  line-height: 64px;
+}
+
+.admin-layout-content {
+  margin: 24px 16px;
+  padding: 24px;
+  min-height: 280px;
+  background: #fff;
+}
+
+.admin-layout-footer {
+  text-align: center;
+}
+
+.logout-button {
+  margin-left: 16px;
+}
